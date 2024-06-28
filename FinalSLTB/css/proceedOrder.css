@@ -1,0 +1,253 @@
+﻿/* This is css reset code */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* This is navigation bar css code */
+.navigationSection {
+    padding: 10px 10px 10px 10px;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    z-index: 2;
+}
+
+    .navigationSection .nav a {
+        text-decoration: none;
+    }
+
+    .navigationSection .nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+        .navigationSection .nav .item2 {
+            margin-left: auto;
+        }
+/*End This is navigation bar css code */
+
+/* This is Secondnavigation bar css code */
+.secondNavigationSection {
+    background-color: #060638;
+    padding: 10px 70px 10px 0;
+    top: 4.6em;
+    z-index: 2;
+    position: sticky;
+}
+
+    .secondNavigationSection .nav a {
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .secondNavigationSection .nav {
+        display: flex;
+    }
+
+        .secondNavigationSection .nav .sendTicket {
+            margin-left: auto;
+            margin-right: 30px;
+        }
+/* End This is Secondnavigation bar css code */
+
+.heroSection {
+    display: flex;
+    height: 70vh;
+}
+
+.leftside {
+    margin: 10px 0 10px 20px;
+    padding: 20px;
+    width: 75%;
+    background-image: url(../assert/8367360.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
+    background-position: right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mainHeading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30em;
+    height: 3em;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgb(217, 243, 99);
+}
+
+.details {
+    margin-top: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+label {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.userInput form {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+    .userInput form input {
+        margin-top: 5px;
+        width: 15em;
+        height: 2.5em;
+        border: none;
+        outline: none;
+        background-color: rgb(239, 226, 209);
+    }
+
+        .userInput form input::placeholder {
+            padding: 10px;
+            font-weight: 700;
+        }
+
+.paymentMethod {
+    display: flex;
+}
+
+.paymentGateWay {
+    width: 6em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px 15px 10px 0;
+    height: 4em;
+    background-color: rgb(255, 255, 255);
+}
+
+.visa {
+    background-image: url(../assert/visa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.EzCash {
+    background-image: url(../assert/ez-cash-sri-lanka-vector-logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Mcash {
+    background-image: url(../assert/mCash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Upay {
+    background-image: url(../assert/Mastercard_logo.0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.procesBtn button {
+    padding: 0.8em;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: rgb(89, 215, 20);
+}
+
+.check {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.rightSide {
+    margin: 10px 0 10px 10px;
+    border-left: 4px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: 30%;
+    padding: 10px;
+}
+
+.seatNo {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15em;
+    border-radius: 10px;
+    height: 3.5em;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: antiquewhite;
+}
+
+.Fare-Breaker {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15em;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    height: 3.5em;
+    background-color: rgb(10, 9, 108);
+    color: white;
+    font-weight: bold;
+}
+
+.journey-Summary {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15em;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    height: 3.5em;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(10, 9, 108);
+}
+/* This is loging page footer css code */
+.loginSctionFooter {
+    height: 35vh;
+    background-color: #0e1e2a;
+}
+
+.logingFooterSub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.loginSctionFooter p {
+    text-align: justify;
+    line-height: 25px;
+    color: white;
+    font-weight: 500;
+}
+
+.loginSctionFooter .last {
+    text-align: center;
+}
+#LoginBtn{
+    padding: 1em;
+}
+
+
+/* End This is loging page footer css code */

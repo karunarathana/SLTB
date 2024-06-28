@@ -1,0 +1,85 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.sub {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 70em;
+    height: 34em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sub1 {
+    width: 50%;
+    height: 34em;
+    background-image: url(../assert/Security\ On-amico.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.sub2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 34em;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 25em;
+    border-radius: 10px;
+    background-color: rgb(227, 241, 254);
+}
+
+label {
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+
+#button {
+    margin-top: 20px;
+    padding: 15px;
+    width: 10em;
+    background-color: rgb(9, 24, 232);
+    color: aliceblue;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    width: 22em;
+    outline: none;
+    height: 2.9em;
+    color: black;
+    font-weight: bold;
+    font-size: 0.9rem;
+    border: none;
+}

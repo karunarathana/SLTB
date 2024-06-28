@@ -1,0 +1,313 @@
+﻿/* This is css reset code */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* This is navigation bar css code */
+.navigationSection {
+    padding: 10px 10px 10px 10px;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    z-index: 2;
+}
+
+    .navigationSection .nav a {
+        text-decoration: none;
+    }
+
+    .navigationSection .nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+        .navigationSection .nav .item2 {
+            margin-left: auto;
+        }
+/*End This is navigation bar css code */
+
+/* This is Secondnavigation bar css code */
+.secondNavigationSection {
+    background-color: #060638;
+    padding: 10px 70px 10px 0;
+    top: 4.6em;
+    z-index: 2;
+    position: sticky;
+}
+
+    .secondNavigationSection .nav a {
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .secondNavigationSection .nav {
+        display: flex;
+    }
+
+        .secondNavigationSection .nav .sendTicket {
+            margin-left: auto;
+            margin-right: 30px;
+        }
+/* End This is Secondnavigation bar css code */
+
+
+
+/* This is result body css code */
+.resultBody {
+    margin: 1em 1.5em 1em 1.5em;
+    height: 18em;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+}
+
+.resultBodyHeader {
+    display: flex;
+    border-radius: 20px 20px 0 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 20px;
+    height: 2em;
+    background-color: black;
+    color: aliceblue;
+}
+
+.subBodyHeader {
+    background-color: #06fb4b;
+    height: 1em;
+}
+
+.resultDetails {
+    height: 10em;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.busImage {
+    margin: 10px 0 0 10px;
+    width: 12em;
+    height: 9em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    background-image: url('../assert/ashok.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.arrow {
+    width: 7em;
+    background-image: url('../assert/fast-forward.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.headeText {
+    font-weight: bold;
+    color: black;
+    font-size: 1.2rem;
+    margin: 5px 0 5px 0;
+}
+
+.subresultDetails {
+    padding: 0 50px 0 0;
+    margin-bottom: 0sm;
+    display: flex;
+    justify-content: space-between;
+}
+
+    .subresultDetails button {
+        background-color: #ced420;
+        padding: 0.9em;
+        width: 10em;
+        outline: none;
+        border: none;
+        font-weight: bold;
+        font-size: 1rem;
+        border-radius: 10px;
+        margin-bottom: 14px;
+    }
+
+.resultbodyFooter {
+    padding: 0 20px 0 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 1.5em;
+    background-color: #060638;
+    border-radius: 0 0 20px 20px;
+    color: aliceblue;
+}
+
+.price {
+    margin: 10px 90px 0 0;
+    width: 2em;
+    display: flex;
+}
+
+.price-destinaton p {
+    margin-right: 10px;
+    color: #000092;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+
+.price p:last-child {
+    color: #0dc246;
+}
+
+p {
+    font-size: 1.1rem;
+}
+/*End This is result body css code */
+
+.seat {
+    height: 70vh;
+}
+
+.information-navigation-bar {
+    margin: 40px 0 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.seat-line-onwe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.streeing {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    background-image: url(../assert/steering-wheel.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.streeing-dummy {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.bus-seat {
+    background-color: rgb(251, 251, 251);
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    transition: transform .2s; /* Animation */
+    align-items: center;
+    width: 40px;
+    background-image: url(../assert/icons8-seat-100.png);
+    height: 40px;
+    margin: 5px 10px 0 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.bus-dummy {
+    width: 40px;
+    height: 40px;
+    margin: 5px 10px 0 0;
+}
+
+.bus-seat:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.container2 .box {
+    background-color: rgb(26, 205, 10);
+}
+
+.container3 .box {
+    background-color: rgb(228, 217, 16);
+}
+
+.container4 .box {
+    background-color: #2e2d2d;
+}
+
+.box {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: white;
+}
+
+.outOut {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+    .outOut p {
+        font-weight: bold;
+    }
+
+.proceed {
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+    .proceed button {
+        padding: 0.7em;
+        width: 7.5em;
+        margin-right: 80px;
+        background-color: #06fb4b;
+        border: none;
+        font-weight: bold;
+        font-size: 1rem;
+        border-radius: 10px;
+    }
+
+/* This is loging page footer css code */
+.loginSctionFooter {
+    margin-top:3em;
+    height: 35vh;
+    background-color: #0e1e2a;
+}
+
+.logingFooterSub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.loginSctionFooter p {
+    text-align: justify;
+    line-height: 25px;
+    color: white;
+    font-weight: 500;
+}
+
+.loginSctionFooter .last {
+    text-align: center;
+}
+
+
+/* End This is loging page footer css code */

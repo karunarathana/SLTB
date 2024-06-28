@@ -1,0 +1,232 @@
+﻿/* This is css reset code */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* This is navigation bar css code */
+.navigationSection {
+    padding: 10px 10px 10px 10px;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    z-index: 2;
+}
+
+    .navigationSection .nav a {
+        text-decoration: none;
+    }
+
+    .navigationSection .nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+        .navigationSection .nav .item2 {
+            margin-left: auto;
+        }
+/*End This is navigation bar css code */
+
+/* This is Secondnavigation bar css code */
+.secondNavigationSection {
+    height: 6em;
+    background-color: #060638;
+    padding: 10px 70px 10px 0;
+    top: 4.6em;
+    z-index: 2;
+    position: sticky;
+}
+
+    .secondNavigationSection .nav a {
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .secondNavigationSection .nav {
+        display: flex;
+    }
+
+        .secondNavigationSection .nav .sendTicket {
+            margin-left: auto;
+            margin-right: 30px;
+        }
+
+.subSecondNavigation {
+    margin: 30px auto;
+    width: 40em;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+    .subSecondNavigation p {
+        color: white;
+    }
+
+    .subSecondNavigation button {
+        background-color: yellow;
+        width: 8em;
+        height: 30px;
+        padding: 0.5em;
+        border: none;
+        border-radius: 20px;
+    }
+/* End This is Secondnavigation bar css code */
+
+/* This is ThirdSubClass bar css code */
+.thirdSubClass {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 2em;
+    font-weight: 600;
+    background-color: rgb(212, 212, 212);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+    .thirdSubClass a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+/* End This is ThirdSubClass bar css code */
+
+/* This is result body css code */
+.resultBody {
+    margin: 1em 1.5em 2em 1.5em;
+    height: 18em;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+}
+
+.resultBodyHeader {
+    display: flex;
+    border-radius: 20px 20px 0 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 20px;
+    height: 2em;
+    background-color: black;
+    color: aliceblue;
+}
+
+.subBodyHeader {
+    background-color: #06fb4b;
+    height: 1em;
+}
+
+.resultDetails {
+    height: 10em;
+    margin: 10px 0 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.busImage {
+    margin: 10px 0 0 10px;
+    width: 12em;
+    height: 9em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    background-image: url('../assert/ashok.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.arrow {
+    width: 7em;
+    background-image: url('../assert/fast-forward.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.headeText {
+    font-weight: bold;
+    color: black;
+    font-size: 1.2rem;
+    margin: 5px 0 5px 0;
+}
+
+.subresultDetails {
+    padding: 0 50px 0 0;
+    margin-bottom: 0em;
+    display: flex;
+    justify-content: space-between;
+}
+
+ .subresultDetails button {
+        background-color: #ced420;
+        padding: 0.7em;
+        width: 7em;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        margin-bottom: 14px;
+    }
+
+.resultbodyFooter {
+    padding: 0 20px 0 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 1.5em;
+    background-color: #060638;
+    border-radius: 0 0 20px 20px;
+    color: aliceblue;
+}
+
+.price-destinaton p {
+    margin-right: 30px;
+    color: #000092;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.price p:last-child {
+    color: #0dc246;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+.price {
+    margin: 10px 10px 0 0;
+    width: 3em;
+    display: flex;
+}
+/*End This is result body css code */
+
+/* This is loging page footer css code */
+.loginSctionFooter {
+    height: 35vh;
+    background-color: #0e1e2a;
+}
+
+.logingFooterSub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.loginSctionFooter p {
+    text-align: justify;
+    line-height: 25px;
+    color: white;
+    font-weight: 500;
+}
+
+.loginSctionFooter .last {
+    text-align: center;
+}
+
+
+/* End This is loging page footer css code */
+

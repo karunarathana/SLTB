@@ -1,0 +1,233 @@
+﻿/* This is css reset code */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* This is navigation bar css code */
+.navigationSection {
+    padding: 10px 10px 10px 10px;
+}
+
+    .navigationSection .nav a {
+        text-decoration: none;
+    }
+
+    .navigationSection .nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+        .navigationSection .nav .item2 {
+            margin-left: auto;
+        }
+
+        .navigationSection .nav .loginbtn button {
+            padding: 12px;
+            border: none;
+            width: 7em;
+            border-radius: 20px;
+            background-color: rgb(31, 255, 6);
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-size: 0.8rem;
+        }
+/*End This is navigation bar css code */
+
+/* This is Secondnavigation bar css code */
+.secondNavigationSection {
+    background-color: #060638;
+    padding: 10px 70px 10px 0;
+}
+
+    .secondNavigationSection .nav a {
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .secondNavigationSection .nav {
+        display: flex;
+    }
+
+        .secondNavigationSection .nav .sendTicket {
+            margin-left: auto;
+            margin-right: 30px;
+        }
+/* End This is Secondnavigation bar css code */
+
+/* This is hero section css code */
+.heroSection {
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    background-color: aliceblue;
+    background-image: url('../assert/pexels-cameron-casey-1334605.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.heroSubInterface {
+    margin: 5em;
+    width: 70em;
+    height: 10em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 3em;
+    background-color: rgb(199, 196, 213);
+    opacity: 0.9;
+}
+
+.onlineSeatReservationTop {
+    padding: 0 0 0 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 2em;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(0, 0, 0);
+}
+
+#onlineSeatText {
+    color: white;
+}
+
+.userInput form {
+    margin: 1.5em 0.5em 0 0.5em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.userFlex {
+    margin: 0.2em;
+    width: 16em;
+    padding: 10px;
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.buttonStyle {
+    margin: 0 0.5em 0 0.5em;
+    padding: 5px;
+    width: 15em;
+    background-color: #070784;
+    border: none;
+    color: white;
+    font-size: 0.9rem;
+    border-radius: 7px;
+}
+
+.userInput input {
+    margin: 0.5em;
+}
+
+.userInput input {
+    outline: none;
+    border: none;
+    width: 10em;
+    height: 1.5em;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+    .userInput input::placeholder {
+        font-weight: bold;
+        color: rgb(99, 98, 98);
+    }
+
+.userFlex img {
+    margin-right: 10px;
+}
+
+.datePicker::-webkit-calendar-picker-indicator {
+    width: 9em;
+    margin: 0;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+}
+/* End This is hero section css code */
+
+/*This is abouth section css code */
+.abouthUS {
+    height: 40ch;
+    background-color: #070784;
+}
+/* This is abouth section end */
+
+/* This is drop down button css code */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    margin-top: 1.3em;
+    margin-left: -13.8em;
+    overflow: auto;
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 254px;
+    height: 150px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+.dropdown a:hover {
+    background-color: #bcbcbc;
+}
+
+.show {
+    display: block;
+}
+
+/* end of drop down button css code */
+
+
+/* This is loging page footer css code */
+.loginSctionFooter {
+    height: 35vh;
+    background-color: #0e1e2a;
+}
+
+.logingFooterSub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.loginSctionFooter p {
+    text-align: justify;
+    line-height: 25px;
+    color: white;
+    font-weight: 500;
+}
+
+.loginSctionFooter .last {
+    text-align: center;
+}
+#SearchBusses {
+ background-color:aqua;
+}
+
+
+/* End This is loging page footer css code */

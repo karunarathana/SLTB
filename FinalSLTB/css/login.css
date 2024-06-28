@@ -1,0 +1,195 @@
+﻿/* This is css reset code */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* This is navigation bar css code */
+.navigationSection {
+    padding: 10px 10px 10px 10px;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    z-index: 2;
+}
+
+    .navigationSection .nav a {
+        text-decoration: none;
+    }
+
+    .navigationSection .nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+        .navigationSection .nav .item2 {
+            margin-left: auto;
+        }
+/*End This is navigation bar css code */
+
+/* This is Secondnavigation bar css code */
+.secondNavigationSection {
+    background-color: #060638;
+    padding: 10px 70px 10px 0;
+    top: 4.6em;
+    z-index: 2;
+    position: sticky;
+}
+
+    .secondNavigationSection .nav a {
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .secondNavigationSection .nav {
+        display: flex;
+    }
+
+        .secondNavigationSection .nav .sendTicket {
+            margin-left: auto;
+            margin-right: 30px;
+        }
+/* End This is Secondnavigation bar css code */
+
+/* This is loging heroSection css code */
+.loginHeroSection {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+/* End This is loging heroSection css code */
+
+.logingFormSection {
+    margin-top: 10px;
+    height: 90vh;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 40em;
+    background-color: white;
+    background-image: url('../assert/logingpage.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.ligingFormItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .ligingFormItem h2 {
+        margin-top: 10px;
+        color: #060638;
+    }
+
+.topHeadingSection p {
+    margin-left: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #060638;
+}
+
+.topHeadingSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border-radius: 10px;
+    width: 25em;
+    background-color: rgb(196, 209, 250);
+}
+
+.logingField {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+    .logingField input {
+        padding: 1.5em;
+        margin: 3px;
+        border: 2px solid rgb(176, 162, 136);
+        outline: none;
+        height: 2em;
+        width: 25em;
+        border-radius: 5px;
+        opacity: 0.7;
+        z-index: 1;
+    }
+
+.logingBtn {
+    margin-top: 2em;
+    text-align: center;
+}
+
+    .logingBtn button {
+        width: 15em;
+        border-radius: 10px;
+        border: none;
+        padding: 1em;
+        background-color: aqua;
+    }
+
+.tabBar {
+    background-color: aliceblue;
+    margin-bottom: 0.5em;
+    width: 21em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* Style tab links */
+.tablink {
+    color: rgb(0, 0, 0);
+    padding: 0.5em;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 17px;
+    width: 25%;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    height: 100%;
+}
+
+
+/* This is loging page footer css code */
+.loginSctionFooter {
+    height: 35vh;
+    background-color: #0e1e2a;
+}
+
+.logingFooterSub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.loginSctionFooter p {
+    text-align: justify;
+    line-height: 25px;
+    color: white;
+    font-weight: 500;
+}
+
+.loginSctionFooter .last {
+    text-align: center;
+}
+
+
+/* End This is loging page footer css code */
+
